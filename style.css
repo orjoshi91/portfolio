@@ -1,0 +1,109 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #fff6bd, #c6e7ff);
+  color: #333;
+}
+
+/* NAVBAR */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 40px;
+  border-radius: 0 0 20px 20px;
+  z-index: 1000;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav-links a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  transform: translateY(-2px);
+}
+
+/* HERO */
+
+.hero {
+  text-align: center;
+  padding: 140px 20px 80px;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+/* SECTIONS */
+
+.card-section {
+  margin: 60px auto;
+  padding: 60px;
+  width: 85%;
+  background: #ffffffcc;
+  border-radius: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* Pastel variants */
+
+.pastel-blue {
+  background: #c6e7ffcc;
+}
+
+.pastel-pink {
+  background: #ffdee9cc;
+}
+
+/* SKILL PILLS */
+
+.pill-container {
+  margin-top: 20px;
+}
+
+.pill {
+  display: inline-block;
+  padding: 10px 16px;
+  margin: 8px;
+  background: white;
+  border-radius: 999px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  font-size: 14px;
+}
+
+/* PROJECT CARDS */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.project-card {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-8px) scale(1.02);
+}

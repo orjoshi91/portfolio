@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ovi — Creative Portfolio</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- AOS animation library -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">Ovi</div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" data-aos="fade-up">
+  <h1>Hello — I'm Ovi</h1>
+  <p>I build creative + AI powered projects</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="card-section" data-aos="fade-right">
+  <h2>About Me</h2>
+  <p>
+    I'm an AI student who loves building creative tools,
+    interactive websites, and smart systems.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="card-section pastel-blue" data-aos="fade-left">
+  <h2>Skills</h2>
+
+  <div class="pill-container">
+    <span class="pill">Python</span>
+    <span class="pill">Java</span>
+    <span class="pill">Machine Learning</span>
+    <span class="pill">Web Dev</span>
+    <span class="pill">Data Structures</span>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="card-section pastel-pink" data-aos="fade-up">
+  <h2>Projects</h2>
+
+  <div class="project-grid">
+
+    <div class="project-card" data-aos="zoom-in">
+      <h3>AI Project</h3>
+      <p>Short description of your project.</p>
+    </div>
+
+    <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+      <h3>Web App</h3>
+      <p>Short description of your project.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- AOS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+AOS.init({ duration: 900, once: true });
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
